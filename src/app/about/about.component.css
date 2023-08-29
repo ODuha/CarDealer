@@ -1,0 +1,17 @@
+.infocard{
+    background: linear-gradient( rgb(150, 150, 150),black);
+    border-radius: 20px;
+    
+}
+.cardborder{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border: dashed white;
+    margin: 20px;
+}
+.IconWtitle{
+    padding:60px;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
