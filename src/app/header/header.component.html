@@ -8,11 +8,11 @@
   <div class="collapse navbar-collapse " id="navbarNav">
     <ul class="navbar-nav m-auto">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/" routerLinkActive="active">Home</a>
+          <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" routerLink="/services" id="servicesDropdown" role="button" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">Services</a>
+        aria-haspopup="true" aria-expanded="false" routerLinkActive="active">Services</a>
         <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
           <li><a class="dropdown-item" routerLink="/services">Service 1</a></li>
           <li><a class="dropdown-item" routerLink="/services">Service 2</a></li>
@@ -21,13 +21,13 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" routerLink="/products" id="productsDropdown" role="button" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">Products</a>
+        aria-haspopup="true" aria-expanded="false" routerLinkActive="active">Products</a>
         <ul  class="dropdown-menu" aria-labelledby="productsDropdown">
           <li><a class="dropdown-item" routerLink="/products">product 1</a></li>
         </ul>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/testimonials">Testimonials</a>
+        <a class="nav-link" routerLink="/testimonials" routerLinkActive="active">Testimonials</a>
       </li>
     </ul>
     <div class="nav-item">

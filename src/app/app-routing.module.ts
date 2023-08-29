@@ -7,6 +7,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { TestmonialsComponent } from './testmonials/testmonials.component';
 
 const routes: Routes = [
+ 
   { path: '', component: HomeComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'products', component: ProductsComponent},
